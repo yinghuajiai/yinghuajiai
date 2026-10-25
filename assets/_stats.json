@@ -1,0 +1,35 @@
+{
+ "months": [
+  {
+   "year": 2026,
+   "month": 9,
+   "total": 56,
+   "active": 7,
+   "days": 30,
+   "parts": [
+    50,
+    3,
+    3
+   ]
+  },
+  {
+   "year": 2026,
+   "month": 10,
+   "total": 166,
+   "active": 15,
+   "days": 26,
+   "parts": [
+    160,
+    3,
+    3
+   ]
+  }
+ ],
+ "years": [
+  {
+   "year": 2026,
+   "total": 258,
+   "weeks": 10
+  }
+ ]
+}

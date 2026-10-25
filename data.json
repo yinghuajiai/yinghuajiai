@@ -1,0 +1,305 @@
+{
+ "login": "yinghuajiai",
+ "generated_at": "2026-10-26",
+ "born": "2026-08-24",
+ "day_repo": {
+  "2026-08-24": {
+   "elder-launcher": 2
+  },
+  "2026-08-26": {
+   "elder-launcher": 8
+  },
+  "2026-09-08": {
+   "elder-launcher": 1
+  },
+  "2026-09-09": {
+   "elder-launcher": 1
+  },
+  "2026-09-10": {
+   "elder-launcher": 5
+  },
+  "2026-09-12": {
+   "Nibnya": 4,
+   "elder-launcher": 2
+  },
+  "2026-09-13": {
+   "Nibnya": 16
+  },
+  "2026-09-14": {
+   "Nibnya": 9
+  },
+  "2026-09-15": {
+   "Nibnya": 12
+  },
+  "2026-10-10": {
+   "Nibnya": 30
+  },
+  "2026-10-11": {
+   "Nibnya": 9
+  },
+  "2026-10-12": {
+   "Nibnya": 3
+  },
+  "2026-10-13": {
+   "Nibnya": 14
+  },
+  "2026-10-14": {
+   "Nibnya": 11
+  },
+  "2026-10-15": {
+   "Nibnya": 5
+  },
+  "2026-10-16": {
+   "Nibnya": 17
+  },
+  "2026-10-17": {
+   "Nibnya": 9
+  },
+  "2026-10-18": {
+   "Nibnya": 6
+  },
+  "2026-10-19": {
+   "Nibnya": 17
+  },
+  "2026-10-20": {
+   "Nibnya": 4
+  },
+  "2026-10-22": {
+   "Nibnya": 11,
+   "juggler": 1
+  },
+  "2026-10-23": {
+   "Nibnya": 6
+  },
+  "2026-10-24": {
+   "Nibnya": 7
+  },
+  "2026-10-25": {
+   "Nibnya": 9,
+   "juggler": 1
+  }
+ },
+ "prs": [
+  {
+   "number": 182,
+   "repo": "juggler-ai/juggler",
+   "createdAt": "2026-10-25T12:20:42Z",
+   "mergedAt": "2026-10-25T13:08:19Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 169,
+   "repo": "juggler-ai/juggler",
+   "createdAt": "2026-10-20T12:24:28Z",
+   "mergedAt": "2026-10-22T12:41:31Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 7,
+   "repo": "yinghuajimew/Nibnya",
+   "createdAt": "2026-10-10T10:30:25Z",
+   "mergedAt": "2026-10-10T10:32:31Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 4,
+   "repo": "yinghuajimew/Nibnya",
+   "createdAt": "2026-09-12T15:37:22Z",
+   "mergedAt": "2026-09-12T15:53:57Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 3,
+   "repo": "yinghuajimew/Nibnya",
+   "createdAt": "2026-09-12T14:54:44Z",
+   "mergedAt": "2026-09-12T15:06:18Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 15,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-09-08T15:17:59Z",
+   "mergedAt": "2026-09-12T11:47:12Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 14,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-29T12:54:48Z",
+   "mergedAt": "2026-08-29T13:58:54Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 13,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-29T12:25:42Z",
+   "mergedAt": "2026-08-29T12:26:36Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 12,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-28T12:59:24Z",
+   "mergedAt": "2026-08-28T15:16:07Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 11,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-26T12:09:10Z",
+   "mergedAt": "2026-08-28T12:32:03Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 10,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-26T11:44:03Z",
+   "mergedAt": "2026-08-26T11:59:44Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 9,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-26T10:21:52Z",
+   "mergedAt": "2026-08-26T11:29:18Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 8,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-26T10:04:23Z",
+   "mergedAt": "2026-08-26T10:18:01Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 7,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-26T09:15:19Z",
+   "mergedAt": "2026-08-26T09:52:44Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 6,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-26T08:28:03Z",
+   "mergedAt": "2026-08-26T08:51:41Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 5,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-26T08:05:28Z",
+   "mergedAt": null,
+   "state": "CLOSED"
+  },
+  {
+   "number": 4,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-26T07:04:31Z",
+   "mergedAt": "2026-08-26T07:47:55Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 3,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-24T14:34:45Z",
+   "mergedAt": "2026-08-24T15:21:33Z",
+   "state": "MERGED"
+  },
+  {
+   "number": 2,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-24T12:42:52Z",
+   "mergedAt": null,
+   "state": "CLOSED"
+  },
+  {
+   "number": 1,
+   "repo": "yinghuajimew/elder-launcher",
+   "createdAt": "2026-08-24T12:16:32Z",
+   "mergedAt": "2026-08-24T12:28:03Z",
+   "state": "MERGED"
+  }
+ ],
+ "repos": [
+  {
+   "name": "juggler",
+   "full_name": "yinghuajiai/juggler",
+   "description": "The Juggler Code Agent",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": true,
+   "topics": [],
+   "license": "AGPL-3.0",
+   "created": "2026-10-12",
+   "pushed": "2026-10-25"
+  },
+  {
+   "name": "Nibnya",
+   "full_name": "yinghuajimew/Nibnya",
+   "description": "An Android NBT editor for Minecraft Bedrock, powered by Shizuku for /data access. | 一款基于 Shizuku 的安卓 Minecraft 基岩版 NBT 数据编辑器，支持 Android 6~13",
+   "language": "Kotlin",
+   "stars": 24,
+   "fork": false,
+   "topics": [
+    "blocktopograph",
+    "mcpe",
+    "minecraft",
+    "minecraft-bedrock",
+    "nbt-editor",
+    "shizuku"
+   ],
+   "license": "AGPL-3.0",
+   "created": "2026-01-10",
+   "pushed": "2026-10-25"
+  },
+  {
+   "name": "Nibnya",
+   "full_name": "yinghuajiai/Nibnya",
+   "description": "An Android NBT editor for Minecraft Bedrock, powered by Shizuku for /data access. | 一款基于 Shizuku 的安卓 Minecraft 基岩版 NBT 数据编辑器，支持 Android 6~13",
+   "language": "Kotlin",
+   "stars": 0,
+   "fork": true,
+   "topics": [],
+   "license": "AGPL-3.0",
+   "created": "2026-09-12",
+   "pushed": "2026-10-25"
+  },
+  {
+   "name": "elder-launcher",
+   "full_name": "yinghuajiai/elder-launcher",
+   "description": null,
+   "language": null,
+   "stars": 0,
+   "fork": true,
+   "topics": [],
+   "license": "AGPL-3.0",
+   "created": "2026-08-24",
+   "pushed": "2026-09-12"
+  },
+  {
+   "name": "1",
+   "full_name": "yinghuajiai/1",
+   "description": null,
+   "language": null,
+   "stars": 0,
+   "fork": false,
+   "topics": [],
+   "license": null,
+   "created": "2026-08-29",
+   "pushed": "2026-08-29"
+  },
+  {
+   "name": "blocktopograph",
+   "full_name": "yinghuajiai/blocktopograph",
+   "description": "Blocktopograph - Blocktopograph is a fan-made app for MCPE, it includes a top-down world viewer and a NBT editor.",
+   "language": null,
+   "stars": 0,
+   "fork": true,
+   "topics": [],
+   "license": "AGPL-3.0",
+   "created": "2026-09-14",
+   "pushed": "2026-06-12"
+  }
+ ]
+}
