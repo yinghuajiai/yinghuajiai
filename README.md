@@ -20,6 +20,9 @@
 
 > 柱子的高度是当天活动次数，颜色区分类型：提交 160 次 / 开 PR 3 次 / 合并 3 次（本月）。
 > 没有活动的日子不省略，只画一条 2px 的浅刻度——空着的日子也是记录。
+>
+> 小时图按 **北京时间** 分桶，数据来自逐条读取 commit 时间戳。GitHub 的贡献统计覆盖所有分支与仓库，
+> 而 API 只能逐仓库逐分支扫，因此小时图的总数会少于日柱图（约八成），两者的**形状与峰值一致**。
 
 <details open>
 <summary><b>10 月</b> · 15/25 天有活动 · 合计 166</summary>
@@ -28,6 +31,71 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-2026-10-dark.svg">
   <img src="assets/activity-2026-10.svg" alt="2026 年 10 月逐日活动柱状图" width="900">
 </picture>
+
+<details open>
+<summary><b>每天</b> · 按小时（Asia/Shanghai (UTC+8)）</summary>
+
+<details open>
+<summary><b>全天累计</b> · 峰值 22 时（33 次）· 共 167 次</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-all-dark.svg">
+  <img src="assets/activity-hours-all.svg" alt="按小时的提交分布（全天累计）" width="900">
+</picture>
+
+</details>
+
+<details>
+<summary><b>10-10</b> · 20 次</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-2026-10-10-dark.svg">
+  <img src="assets/activity-hours-2026-10-10.svg" alt="2026-10-10 的逐小时提交分布" width="900">
+</picture>
+
+</details>
+
+<details>
+<summary><b>10-19</b> · 13 次</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-2026-10-19-dark.svg">
+  <img src="assets/activity-hours-2026-10-19.svg" alt="2026-10-19 的逐小时提交分布" width="900">
+</picture>
+
+</details>
+
+<details>
+<summary><b>10-16</b> · 12 次</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-2026-10-16-dark.svg">
+  <img src="assets/activity-hours-2026-10-16.svg" alt="2026-10-16 的逐小时提交分布" width="900">
+</picture>
+
+</details>
+
+<details>
+<summary><b>10-22</b> · 11 次</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-2026-10-22-dark.svg">
+  <img src="assets/activity-hours-2026-10-22.svg" alt="2026-10-22 的逐小时提交分布" width="900">
+</picture>
+
+</details>
+
+<details>
+<summary><b>10-13</b> · 10 次</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-2026-10-13-dark.svg">
+  <img src="assets/activity-hours-2026-10-13.svg" alt="2026-10-13 的逐小时提交分布" width="900">
+</picture>
+
+</details>
+
+</details>
 
 </details>
 

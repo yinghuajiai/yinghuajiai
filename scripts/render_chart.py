@@ -166,6 +166,54 @@ def band(width, height, pal, card=False):
                pal.card if card else pal.paper))
 
 
+def hours_chart(counts, width, height, pal, *, label_every=3):
+    """24 小时的柱状图。counts 是长度 24 的列表，下标即小时。"""
+    L, R, T, B = 40, 10, 24, 26
+    pw, ph = width - L - R, height - T - B
+    slot = pw / 24
+    bw = max(4.0, min(slot * 0.58, 26))
+    top = nice_max(max(1, max(counts)))
+
+    def y(v):
+        return T + ph - (v / top) * ph
+
+    p = ['<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d" role="img">'
+         % (width, height, width, height),
+         '<rect width="%d" height="%d" fill="%s" rx="12"/>' % (width, height, pal.card)]
+
+    for i in range(5):
+        val = top * i / 4
+        yy = y(val)
+        dash = '' if i == 0 else ' stroke-dasharray="1 4"'
+        p.append('<line x1="%d" y1="%.2f" x2="%d" y2="%.2f" stroke="%s" stroke-width="1"%s/>'
+                 % (L, yy, width - R, yy, pal.rule if i == 0 else pal.grid, dash))
+        p.append('<text x="%d" y="%.2f" font-size="9.5" fill="%s" text-anchor="end" '
+                 'font-family="%s">%d</text>' % (L - 8, yy + 3.4, pal.faint, FONT, round(val)))
+
+    for h, v in enumerate(counts):
+        x = L + h * slot + (slot - bw) / 2
+        base = T + ph
+        if v == 0:
+            p.append('<rect x="%.2f" y="%.2f" width="%.2f" height="2" fill="%s" rx="1"/>'
+                     % (x, base - 2, bw, pal.ghost))
+            continue
+        hh = (v / top) * ph
+        p.append('<rect x="%.2f" y="%.2f" width="%.2f" height="%.2f" fill="%s" rx="1.5"/>'
+                 % (x, base - hh, bw, hh, pal.colors["commit"]))
+        p.append('<text x="%.2f" y="%.2f" font-size="9" fill="%s" text-anchor="middle" '
+                 'font-family="%s">%d</text>' % (x + bw / 2, base - hh - 4.5, pal.faint, FONT, v))
+
+    for h in range(24):
+        if h % label_every:
+            continue
+        p.append('<text x="%.2f" y="%d" font-size="9.5" fill="%s" text-anchor="middle" '
+                 'font-family="%s">%d时</text>'
+                 % (L + h * slot + slot / 2, T + ph + 15, pal.faint, FONT, h))
+
+    p.append("</svg>")
+    return "\n".join(p)
+
+
 # ---------------------------------------------------------------- 数据整形
 def load(path):
     with open(path, encoding="utf-8") as f:
@@ -268,6 +316,42 @@ def main():
                       label_every=1, pad_left=16, pad_bottom=22,
                       card=True, radius=12))
 
+    # ---- 每天：按小时（北京时间）----
+    hourly_path = os.path.join(root, "hourly.json")
+    hourly_meta = None
+    if os.path.exists(hourly_path):
+        with open(hourly_path, encoding="utf-8") as f:
+            hourly = json.load(f)
+        per_day = hourly["days"]
+        per_hour = [0] * 24
+        for vec in per_day.values():
+            for h, n in enumerate(vec):
+                per_hour[h] += n
+
+        # 本月有记录的每一天一张，按次数降序取前 6 天，避免 README 太长
+        month_prefix = "%04d-%02d-" % (today.year, today.month)
+        cand = [(d, sum(v)) for d, v in per_day.items() if d.startswith(month_prefix) and sum(v) > 0]
+        cand.sort(key=lambda x: (-x[1], x[0]))
+        top_days = [d for d, _ in cand[:6]]
+
+        for d in top_days:
+            for dark in (False, True):
+                emit("activity-hours-%s%s.svg" % (d, "-dark" if dark else ""),
+                     hours_chart(per_day[d], 900, 150, Pal(dark)))
+
+        for dark in (False, True):
+            emit("activity-hours-all%s.svg" % ("-dark" if dark else ""),
+                 hours_chart(per_hour, 900, 165, Pal(dark), label_every=2))
+
+        hourly_meta = {
+            "total": hourly["total"],
+            "days": len(per_day),
+            "timezone": hourly["timezone"],
+            "top_days": [{"date": d, "count": sum(per_day[d])} for d in top_days],
+            "per_hour": per_hour,
+            "source_repos": hourly.get("source_repos", []),
+        }
+
     for dark in (False, True):
         tail = "-dark" if dark else ""
         emit("legend%s.svg" % tail, legend(900, Pal(dark)))
@@ -280,6 +364,7 @@ def main():
         json.dump({
             "months": [{"year": y, "month": m, **stats[(y, m)]} for y, m in months],
             "years": [{"year": y, **v} for y, v in sorted(year_stats.items())],
+            "hourly": hourly_meta,
         }, f, ensure_ascii=False, indent=1)
 
     print("生成 %d 个 SVG" % len(written))

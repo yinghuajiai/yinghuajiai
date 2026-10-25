@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img">
+<rect width="900" height="150" fill="#FFF0F6" rx="12"/>
+<line x1="40" y1="124.00" x2="890" y2="124.00" stroke="#EEDBE4" stroke-width="1"/>
+<text x="32" y="127.40" font-size="9.5" fill="#B49CA8" text-anchor="end" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">0</text>
+<line x1="40" y1="99.00" x2="890" y2="99.00" stroke="#F7EAF0" stroke-width="1" stroke-dasharray="1 4"/>
+<text x="32" y="102.40" font-size="9.5" fill="#B49CA8" text-anchor="end" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">1</text>
+<line x1="40" y1="74.00" x2="890" y2="74.00" stroke="#F7EAF0" stroke-width="1" stroke-dasharray="1 4"/>
+<text x="32" y="77.40" font-size="9.5" fill="#B49CA8" text-anchor="end" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">2</text>
+<line x1="40" y1="49.00" x2="890" y2="49.00" stroke="#F7EAF0" stroke-width="1" stroke-dasharray="1 4"/>
+<text x="32" y="52.40" font-size="9.5" fill="#B49CA8" text-anchor="end" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">3</text>
+<line x1="40" y1="24.00" x2="890" y2="24.00" stroke="#F7EAF0" stroke-width="1" stroke-dasharray="1 4"/>
+<text x="32" y="27.40" font-size="9.5" fill="#B49CA8" text-anchor="end" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">4</text>
+<rect x="47.44" y="74.00" width="20.54" height="50.00" fill="#F4799C" rx="1.5"/>
+<text x="57.71" y="69.50" font-size="9" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">2</text>
+<rect x="82.85" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="118.27" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="153.69" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="189.10" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="224.52" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="259.94" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="295.35" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="330.77" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="366.19" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="401.60" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="437.02" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="472.44" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="507.85" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="543.27" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="578.69" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="614.10" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="649.52" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="684.94" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="720.35" y="74.00" width="20.54" height="50.00" fill="#F4799C" rx="1.5"/>
+<text x="730.62" y="69.50" font-size="9" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">2</text>
+<rect x="755.77" y="122.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="791.19" y="74.00" width="20.54" height="50.00" fill="#F4799C" rx="1.5"/>
+<text x="801.46" y="69.50" font-size="9" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">2</text>
+<rect x="826.60" y="24.00" width="20.54" height="100.00" fill="#F4799C" rx="1.5"/>
+<text x="836.88" y="19.50" font-size="9" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">4</text>
+<rect x="862.02" y="74.00" width="20.54" height="50.00" fill="#F4799C" rx="1.5"/>
+<text x="872.29" y="69.50" font-size="9" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">2</text>
+<text x="57.71" y="139" font-size="9.5" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">0时</text>
+<text x="163.96" y="139" font-size="9.5" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">3时</text>
+<text x="270.21" y="139" font-size="9.5" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">6时</text>
+<text x="376.46" y="139" font-size="9.5" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9时</text>
+<text x="482.71" y="139" font-size="9.5" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">12时</text>
+<text x="588.96" y="139" font-size="9.5" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">15时</text>
+<text x="695.21" y="139" font-size="9.5" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">18时</text>
+<text x="801.46" y="139" font-size="9.5" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">21时</text>
+</svg>

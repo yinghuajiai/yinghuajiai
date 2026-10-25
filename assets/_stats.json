@@ -31,5 +31,68 @@
    "total": 258,
    "weeks": 9
   }
- ]
+ ],
+ "hourly": {
+  "total": 167,
+  "days": 23,
+  "timezone": "Asia/Shanghai (UTC+8)",
+  "top_days": [
+   {
+    "date": "2026-10-10",
+    "count": 20
+   },
+   {
+    "date": "2026-10-19",
+    "count": 13
+   },
+   {
+    "date": "2026-10-16",
+    "count": 12
+   },
+   {
+    "date": "2026-10-22",
+    "count": 11
+   },
+   {
+    "date": "2026-10-13",
+    "count": 10
+   },
+   {
+    "date": "2026-10-14",
+    "count": 10
+   }
+  ],
+  "per_hour": [
+   30,
+   4,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   0,
+   0,
+   0,
+   0,
+   4,
+   5,
+   3,
+   7,
+   8,
+   15,
+   28,
+   33,
+   27
+  ],
+  "source_repos": [
+   "yinghuajimew/Nibnya",
+   "yinghuajimew/elder-launcher",
+   "yinghuajiai/yinghuajiai",
+   "juggler-ai/juggler"
+  ]
+ }
 }

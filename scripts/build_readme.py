@@ -38,6 +38,31 @@ def band(width=900):
     )
 
 
+def hours_block(hm):
+    """「每天 · 按小时」那一层：全天累计 + 本月最忙的几天。"""
+    if not hm:
+        return ""
+    per_hour = hm["per_hour"]
+    peak = max(range(24), key=lambda h: per_hour[h])
+    peak_n = per_hour[peak]
+
+    parts = []
+    # 全天累计
+    parts.append(details(
+        "<b>全天累计</b> · 峰值 %d 时（%d 次）· 共 %d 次" % (peak, peak_n, hm["total"]),
+        pic("activity-hours-all", "按小时的提交分布（全天累计）"),
+        open_=True,
+    ))
+    # 本月最忙的几天（默认收起，避免太长）
+    for d in hm["top_days"][:5]:
+        parts.append(details(
+            "<b>%s</b> · %d 次" % (d["date"][5:], d["count"]),
+            pic("activity-hours-%s" % d["date"], "%s 的逐小时提交分布" % d["date"]),
+            open_=False,
+        ))
+    return "\n\n".join(parts)
+
+
 def details(summary, body, open_=False):
     return '<details%s>\n<summary>%s</summary>\n\n%s\n\n</details>' % (
         " open" if open_ else "", summary, body)
@@ -48,6 +73,7 @@ def build(data, stats):
     born = data["born"]
     today = data["generated_at"]
 
+    hourly = stats.get("hourly")
     months = stats["months"][:]          # 旧 → 新
     newest = months[-1]
     older = months[:-1]
@@ -79,7 +105,17 @@ def build(data, stats):
             open_=open_,
         )
 
-    newest_block = month_block(newest, True)
+    # 最新月份展开时，"每天按小时"作为它的子层
+    hours_inner = hours_block(hourly) if hourly else ""
+    newest_block = details(
+        "<b>%d 月</b> · %d/%d 天有活动 · 合计 %d" % (
+            newest["month"], newest["active"], newest["days"], newest["total"]),
+        pic("activity-%d-%02d" % (newest["year"], newest["month"]),
+            "%d 年 %d 月逐日活动柱状图" % (newest["year"], newest["month"]))
+        + ("\n\n" + details("<b>每天</b> · 按小时（%s）" % hourly["timezone"],
+                            hours_inner, open_=True) if hours_inner else ""),
+        open_=True,
+    )
     older_blocks = "\n\n".join(month_block(m, False) for m in older)
 
     parts = newest["parts"]
@@ -101,6 +137,9 @@ def build(data, stats):
 
 > 柱子的高度是当天活动次数，颜色区分类型：提交 {commit} 次 / 开 PR {pr} 次 / 合并 {merged} 次（本月）。
 > 没有活动的日子不省略，只画一条 2px 的浅刻度——空着的日子也是记录。
+>
+> 小时图按 **北京时间** 分桶，数据来自逐条读取 commit 时间戳。GitHub 的贡献统计覆盖所有分支与仓库，
+> 而 API 只能逐仓库逐分支扫，因此小时图的总数会少于日柱图（约八成），两者的**形状与峰值一致**。
 
 {newest}
 
