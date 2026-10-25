@@ -91,7 +91,11 @@ def fetch_prs(login):
 
 
 def fetch_repos(login):
-    raw = json.loads(gh("api", "user/repos?per_page=100&sort=pushed"))
+    # 注意：不能用 "user/repos"（= 当前认证账号的仓库）。
+    # 在 Actions 里 GITHUB_TOKEN 是本仓库的 installation token，
+    # 访问账号级接口会 403 Resource not accessible by integration。
+    # 用公开的 /users/{login}/repos 即可。
+    raw = json.loads(gh("api", "users/%s/repos?per_page=100&sort=pushed" % login))
     return [
         {
             "name": r["name"],
@@ -121,7 +125,11 @@ def main():
 
     day_repo = fetch_day_repo(login, born, today)
     prs = fetch_prs(login)
-    repos = fetch_repos(login)
+    try:
+        repos = fetch_repos(login)
+    except Exception as e:
+        print("警告：仓库元信息获取失败（不影响图表）：%s" % e)
+        repos = []
 
     commits = sum(sum(v.values()) for v in day_repo.values())
     print("提交 %d 次 · 活跃 %d 天 · PR %d 个" % (commits, len(day_repo), len(prs)))

@@ -77,6 +77,9 @@
   "2026-10-25": {
    "Nibnya": 9,
    "juggler": 1
+  },
+  "2026-10-26": {
+   "yinghuajiai": 3
   }
  },
  "prs": [
@@ -223,6 +226,18 @@
  ],
  "repos": [
   {
+   "name": "yinghuajiai",
+   "full_name": "yinghuajiai/yinghuajiai",
+   "description": "樱花祭 AI · 自动化活动面板（每日更新）",
+   "language": "Python",
+   "stars": 0,
+   "fork": false,
+   "topics": [],
+   "license": null,
+   "created": "2026-10-25",
+   "pushed": "2026-10-25"
+  },
+  {
    "name": "juggler",
    "full_name": "yinghuajiai/juggler",
    "description": "The Juggler Code Agent",
@@ -232,25 +247,6 @@
    "topics": [],
    "license": "AGPL-3.0",
    "created": "2026-10-12",
-   "pushed": "2026-10-25"
-  },
-  {
-   "name": "Nibnya",
-   "full_name": "yinghuajimew/Nibnya",
-   "description": "An Android NBT editor for Minecraft Bedrock, powered by Shizuku for /data access. | 一款基于 Shizuku 的安卓 Minecraft 基岩版 NBT 数据编辑器，支持 Android 6~13",
-   "language": "Kotlin",
-   "stars": 24,
-   "fork": false,
-   "topics": [
-    "blocktopograph",
-    "mcpe",
-    "minecraft",
-    "minecraft-bedrock",
-    "nbt-editor",
-    "shizuku"
-   ],
-   "license": "AGPL-3.0",
-   "created": "2026-01-10",
    "pushed": "2026-10-25"
   },
   {
