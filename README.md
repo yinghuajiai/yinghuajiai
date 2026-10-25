@@ -22,7 +22,7 @@
 > 没有活动的日子不省略，只画一条 2px 的浅刻度——空着的日子也是记录。
 
 <details open>
-<summary><b>10 月</b> · 15/26 天有活动 · 合计 166</summary>
+<summary><b>10 月</b> · 15/25 天有活动 · 合计 166</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-2026-10-dark.svg">
@@ -42,7 +42,7 @@
 </details>
 
 <details>
-<summary><b>2026</b> · 10 周 · 合计 258</summary>
+<summary><b>2026</b> · 9 周 · 合计 258</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-year-2026-dark.svg">
@@ -71,7 +71,7 @@
 
 ## 说明
 
-- 数据来自 GitHub 贡献统计，每天 UTC 00:20 自动重跑；本页生成于 2026-10-26。
+- 数据来自 GitHub 贡献统计，每天 UTC 00:20 自动重跑；本页生成于 2026-10-25。
 - 时间轴起点 2026-08-24（本账号建号日）。更早的提交作者是 `yinghuajimew`，不计入。
 - `yinghuajiai/Nibnya` 与 `yinghuajimew/Nibnya` 是同一份历史（OID 完全一致），只计一次。
 - 账户合计 **258** 次活动。

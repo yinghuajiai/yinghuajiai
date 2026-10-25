@@ -17,7 +17,7 @@
    "month": 10,
    "total": 166,
    "active": 15,
-   "days": 26,
+   "days": 25,
    "parts": [
     160,
     3,
@@ -29,7 +29,7 @@
   {
    "year": 2026,
    "total": 258,
-   "weeks": 10
+   "weeks": 9
   }
  ]
 }

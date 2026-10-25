@@ -6,36 +6,34 @@
 <line x1="16" y1="53.50" x2="892" y2="53.50" stroke="#241A22" stroke-width="1" stroke-dasharray="1 4"/>
 <line x1="16" y1="26.00" x2="892" y2="26.00" stroke="#241A22" stroke-width="1" stroke-dasharray="1 4"/>
 <text x="16.00" y="14" font-size="11.5" fill="#C2A5B4" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">8 月</text>
-<line x1="191.20" y1="18" x2="191.20" y2="136" stroke="#33222C" stroke-width="1"/>
-<text x="197.20" y="14" font-size="11.5" fill="#C2A5B4" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9 月</text>
-<line x1="541.60" y1="18" x2="541.60" y2="136" stroke="#33222C" stroke-width="1"/>
-<text x="547.60" y="14" font-size="11.5" fill="#C2A5B4" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">10 月</text>
-<rect x="48.80" y="122.25" width="22.00" height="13.75" fill="#F4799C"/>
-<rect x="48.80" y="103.00" width="22.00" height="19.25" fill="#9C8BB8"/>
-<rect x="48.80" y="86.50" width="22.00" height="16.50" fill="#E2B24E"/>
-<rect x="136.40" y="134.00" width="22.00" height="2" fill="#2A1E26" rx="1"/>
-<rect x="224.00" y="96.12" width="22.00" height="39.88" fill="#F4799C"/>
-<rect x="224.00" y="92.00" width="22.00" height="4.12" fill="#9C8BB8"/>
-<rect x="224.00" y="87.88" width="22.00" height="4.12" fill="#E2B24E"/>
-<rect x="311.60" y="107.12" width="22.00" height="28.88" fill="#F4799C"/>
-<rect x="399.20" y="134.00" width="22.00" height="2" fill="#2A1E26" rx="1"/>
-<rect x="486.80" y="134.00" width="22.00" height="2" fill="#2A1E26" rx="1"/>
-<rect x="574.40" y="82.38" width="22.00" height="53.62" fill="#F4799C"/>
-<rect x="574.40" y="81.00" width="22.00" height="1.38" fill="#9C8BB8"/>
-<rect x="574.40" y="79.62" width="22.00" height="1.38" fill="#E2B24E"/>
-<rect x="662.00" y="46.62" width="22.00" height="89.38" fill="#F4799C"/>
-<rect x="749.60" y="59.00" width="22.00" height="77.00" fill="#F4799C"/>
-<rect x="749.60" y="56.25" width="22.00" height="2.75" fill="#9C8BB8"/>
-<rect x="749.60" y="53.50" width="22.00" height="2.75" fill="#E2B24E"/>
-<rect x="837.20" y="134.00" width="22.00" height="2" fill="#2A1E26" rx="1"/>
-<text x="59.80" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">8/24</text>
-<text x="147.40" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">8/31</text>
-<text x="235.00" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9/7</text>
-<text x="322.60" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9/14</text>
-<text x="410.20" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9/21</text>
-<text x="497.80" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9/28</text>
-<text x="585.40" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">10/5</text>
-<text x="673.00" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">10/12</text>
-<text x="760.60" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">10/19</text>
-<text x="848.20" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">10/26</text>
+<line x1="210.67" y1="18" x2="210.67" y2="136" stroke="#33222C" stroke-width="1"/>
+<text x="216.67" y="14" font-size="11.5" fill="#C2A5B4" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9 月</text>
+<line x1="600.00" y1="18" x2="600.00" y2="136" stroke="#33222C" stroke-width="1"/>
+<text x="606.00" y="14" font-size="11.5" fill="#C2A5B4" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">10 月</text>
+<rect x="53.67" y="122.25" width="22.00" height="13.75" fill="#F4799C"/>
+<rect x="53.67" y="103.00" width="22.00" height="19.25" fill="#9C8BB8"/>
+<rect x="53.67" y="86.50" width="22.00" height="16.50" fill="#E2B24E"/>
+<rect x="151.00" y="134.00" width="22.00" height="2" fill="#2A1E26" rx="1"/>
+<rect x="248.33" y="96.12" width="22.00" height="39.88" fill="#F4799C"/>
+<rect x="248.33" y="92.00" width="22.00" height="4.12" fill="#9C8BB8"/>
+<rect x="248.33" y="87.88" width="22.00" height="4.12" fill="#E2B24E"/>
+<rect x="345.67" y="107.12" width="22.00" height="28.88" fill="#F4799C"/>
+<rect x="443.00" y="134.00" width="22.00" height="2" fill="#2A1E26" rx="1"/>
+<rect x="540.33" y="134.00" width="22.00" height="2" fill="#2A1E26" rx="1"/>
+<rect x="637.67" y="82.38" width="22.00" height="53.62" fill="#F4799C"/>
+<rect x="637.67" y="81.00" width="22.00" height="1.38" fill="#9C8BB8"/>
+<rect x="637.67" y="79.62" width="22.00" height="1.38" fill="#E2B24E"/>
+<rect x="735.00" y="46.62" width="22.00" height="89.38" fill="#F4799C"/>
+<rect x="832.33" y="59.00" width="22.00" height="77.00" fill="#F4799C"/>
+<rect x="832.33" y="56.25" width="22.00" height="2.75" fill="#9C8BB8"/>
+<rect x="832.33" y="53.50" width="22.00" height="2.75" fill="#E2B24E"/>
+<text x="64.67" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">8/24</text>
+<text x="162.00" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">8/31</text>
+<text x="259.33" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9/7</text>
+<text x="356.67" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9/14</text>
+<text x="454.00" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9/21</text>
+<text x="551.33" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">9/28</text>
+<text x="648.67" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">10/5</text>
+<text x="746.00" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">10/12</text>
+<text x="843.33" y="152" font-size="9.5" fill="#8A6E7C" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">10/19</text>
 </svg>
