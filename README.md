@@ -36,7 +36,7 @@
 <summary><b>每天</b> · 按小时（Asia/Shanghai (UTC+8)）</summary>
 
 <details open>
-<summary><b>全天累计</b> · 峰值 22 时（33 次）· 共 167 次</summary>
+<summary><b>全天累计</b> · 峰值 22 时（33 次）· 共 168 次</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-all-dark.svg">
