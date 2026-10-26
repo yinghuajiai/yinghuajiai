@@ -15,11 +15,11 @@
   {
    "year": 2026,
    "month": 10,
-   "total": 166,
-   "active": 15,
-   "days": 25,
+   "total": 171,
+   "active": 16,
+   "days": 26,
    "parts": [
-    160,
+    165,
     3,
     3
    ]
@@ -28,8 +28,8 @@
  "years": [
   {
    "year": 2026,
-   "total": 258,
-   "weeks": 9
+   "total": 263,
+   "weeks": 10
   }
  ],
  "hourly": {
