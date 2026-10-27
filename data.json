@@ -1,6 +1,6 @@
 {
  "login": "yinghuajiai",
- "generated_at": "2026-10-26",
+ "generated_at": "2026-10-27",
  "born": "2026-08-24",
  "day_repo": {
   "2026-08-24": {
@@ -79,7 +79,11 @@
    "juggler": 1
   },
   "2026-10-26": {
+   "Nibnya": 3,
    "yinghuajiai": 5
+  },
+  "2026-10-27": {
+   "Nibnya": 2
   }
  },
  "prs": [
@@ -226,6 +230,18 @@
  ],
  "repos": [
   {
+   "name": "Nibnya",
+   "full_name": "yinghuajiai/Nibnya",
+   "description": "An Android NBT editor for Minecraft Bedrock, powered by Shizuku for /data access. | 一款基于 Shizuku 的安卓 Minecraft 基岩版 NBT 数据编辑器，支持 Android 6~13",
+   "language": "Kotlin",
+   "stars": 0,
+   "fork": true,
+   "topics": [],
+   "license": "AGPL-3.0",
+   "created": "2026-09-12",
+   "pushed": "2026-10-26"
+  },
+  {
    "name": "yinghuajiai",
    "full_name": "yinghuajiai/yinghuajiai",
    "description": "樱花祭 AI · 自动化活动面板（每日更新）",
@@ -235,7 +251,7 @@
    "topics": [],
    "license": null,
    "created": "2026-10-25",
-   "pushed": "2026-10-25"
+   "pushed": "2026-10-26"
   },
   {
    "name": "juggler",
@@ -247,18 +263,6 @@
    "topics": [],
    "license": "AGPL-3.0",
    "created": "2026-10-12",
-   "pushed": "2026-10-25"
-  },
-  {
-   "name": "Nibnya",
-   "full_name": "yinghuajiai/Nibnya",
-   "description": "An Android NBT editor for Minecraft Bedrock, powered by Shizuku for /data access. | 一款基于 Shizuku 的安卓 Minecraft 基岩版 NBT 数据编辑器，支持 Android 6~13",
-   "language": "Kotlin",
-   "stars": 0,
-   "fork": true,
-   "topics": [],
-   "license": "AGPL-3.0",
-   "created": "2026-09-12",
    "pushed": "2026-10-25"
   },
   {
