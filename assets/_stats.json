@@ -15,11 +15,11 @@
   {
    "year": 2026,
    "month": 10,
-   "total": 181,
+   "total": 188,
    "active": 18,
-   "days": 28,
+   "days": 29,
    "parts": [
-    175,
+    182,
     3,
     3
    ]
@@ -28,12 +28,12 @@
  "years": [
   {
    "year": 2026,
-   "total": 273,
+   "total": 280,
    "weeks": 10
   }
  ],
  "hourly": {
-  "total": 180,
+  "total": 187,
   "days": 25,
   "timezone": "Asia/Shanghai (UTC+8)",
   "top_days": [
@@ -54,11 +54,11 @@
     "count": 11
    },
    {
-    "date": "2026-10-13",
-    "count": 10
+    "date": "2026-10-28",
+    "count": 11
    },
    {
-    "date": "2026-10-14",
+    "date": "2026-10-13",
     "count": 10
    }
   ],
@@ -84,15 +84,18 @@
    7,
    8,
    17,
-   29,
-   36,
-   27
+   30,
+   40,
+   29
   ],
   "source_repos": [
    "yinghuajimew/Nibnya",
    "yinghuajimew/elder-launcher",
+   "yinghuajimew/yhjmew.no.ore.ui",
    "yinghuajiai/yinghuajiai",
-   "juggler-ai/juggler"
+   "juggler-ai/juggler",
+   "yinghuajimew/yinghuaji-ForceCloseOreUI",
+   "yinghuajimew/ForceCloseOreUI-android"
   ]
  }
 }

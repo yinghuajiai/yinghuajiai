@@ -648,17 +648,20 @@
    0,
    0,
    0,
-   0,
-   0,
-   0
+   1,
+   4,
+   2
   ]
  },
- "total": 180,
+ "total": 187,
  "source_repos": [
   "yinghuajimew/Nibnya",
   "yinghuajimew/elder-launcher",
+  "yinghuajimew/yhjmew.no.ore.ui",
   "yinghuajiai/yinghuajiai",
-  "juggler-ai/juggler"
+  "juggler-ai/juggler",
+  "yinghuajimew/yinghuaji-ForceCloseOreUI",
+  "yinghuajimew/ForceCloseOreUI-android"
  ],
- "scanned_commits": 180
+ "scanned_commits": 187
 }
