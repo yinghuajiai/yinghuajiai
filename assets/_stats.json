@@ -15,11 +15,11 @@
   {
    "year": 2026,
    "month": 10,
-   "total": 188,
-   "active": 18,
-   "days": 29,
+   "total": 203,
+   "active": 20,
+   "days": 30,
    "parts": [
-    182,
+    197,
     3,
     3
    ]
@@ -28,18 +28,22 @@
  "years": [
   {
    "year": 2026,
-   "total": 280,
+   "total": 295,
    "weeks": 10
   }
  ],
  "hourly": {
-  "total": 187,
-  "days": 25,
+  "total": 203,
+  "days": 27,
   "timezone": "Asia/Shanghai (UTC+8)",
   "top_days": [
    {
     "date": "2026-10-10",
     "count": 20
+   },
+   {
+    "date": "2026-10-29",
+    "count": 15
    },
    {
     "date": "2026-10-19",
@@ -56,14 +60,10 @@
    {
     "date": "2026-10-28",
     "count": 11
-   },
-   {
-    "date": "2026-10-13",
-    "count": 10
    }
   ],
   "per_hour": [
-   35,
+   36,
    6,
    0,
    0,
@@ -82,16 +82,16 @@
    5,
    3,
    7,
-   8,
-   17,
-   30,
-   40,
-   29
+   9,
+   19,
+   33,
+   43,
+   35
   ],
   "source_repos": [
    "yinghuajimew/Nibnya",
-   "yinghuajimew/elder-launcher",
    "yinghuajimew/yhjmew.no.ore.ui",
+   "yinghuajimew/elder-launcher",
    "yinghuajiai/yinghuajiai",
    "juggler-ai/juggler",
    "yinghuajimew/yinghuaji-ForceCloseOreUI",
