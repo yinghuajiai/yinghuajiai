@@ -1,6 +1,6 @@
 {
  "login": "yinghuajiai",
- "generated_at": "2026-10-30",
+ "generated_at": "2026-10-31",
  "born": "2026-08-24",
  "day_repo": {
   "2026-08-24": {
@@ -95,10 +95,17 @@
    "yhjmew.no.ore.ui": 14
   },
   "2026-10-30": {
-   "yhjmew.no.ore.ui": 1
+   "yhjmew.no.ore.ui": 8
   }
  },
  "prs": [
+  {
+   "number": 188,
+   "repo": "juggler-ai/juggler",
+   "createdAt": "2026-10-30T12:28:37Z",
+   "mergedAt": null,
+   "state": "OPEN"
+  },
   {
    "number": 182,
    "repo": "juggler-ai/juggler",
@@ -242,6 +249,18 @@
  ],
  "repos": [
   {
+   "name": "juggler",
+   "full_name": "yinghuajiai/juggler",
+   "description": "The Juggler Code Agent",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": true,
+   "topics": [],
+   "license": "AGPL-3.0",
+   "created": "2026-10-12",
+   "pushed": "2026-10-30"
+  },
+  {
    "name": "yinghuajiai",
    "full_name": "yinghuajiai/yinghuajiai",
    "description": "樱花祭 AI · 自动化活动面板（每日更新）",
@@ -251,7 +270,7 @@
    "topics": [],
    "license": null,
    "created": "2026-10-25",
-   "pushed": "2026-10-29"
+   "pushed": "2026-10-30"
   },
   {
    "name": "Nibnya",
@@ -264,18 +283,6 @@
    "license": "AGPL-3.0",
    "created": "2026-09-12",
    "pushed": "2026-10-27"
-  },
-  {
-   "name": "juggler",
-   "full_name": "yinghuajiai/juggler",
-   "description": "The Juggler Code Agent",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": true,
-   "topics": [],
-   "license": "AGPL-3.0",
-   "created": "2026-10-12",
-   "pushed": "2026-10-25"
   },
   {
    "name": "elder-launcher",
