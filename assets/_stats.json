@@ -2,66 +2,41 @@
  "months": [
   {
    "year": 2026,
-   "month": 9,
-   "total": 56,
-   "active": 7,
-   "days": 30,
+   "month": 10,
+   "total": 223,
+   "active": 21,
+   "days": 31,
    "parts": [
-    50,
-    3,
-    3
+    215,
+    4,
+    4
    ]
   },
   {
    "year": 2026,
-   "month": 10,
-   "total": 211,
-   "active": 20,
-   "days": 31,
+   "month": 11,
+   "total": 0,
+   "active": 0,
+   "days": 1,
    "parts": [
-    204,
-    4,
-    3
+    0,
+    0,
+    0
    ]
   }
  ],
  "years": [
   {
    "year": 2026,
-   "total": 303,
+   "total": 315,
    "weeks": 10
   }
  ],
  "hourly": {
-  "total": 211,
-  "days": 27,
+  "total": 222,
+  "days": 28,
   "timezone": "Asia/Shanghai (UTC+8)",
-  "top_days": [
-   {
-    "date": "2026-10-10",
-    "count": 20
-   },
-   {
-    "date": "2026-10-29",
-    "count": 15
-   },
-   {
-    "date": "2026-10-19",
-    "count": 13
-   },
-   {
-    "date": "2026-10-16",
-    "count": 12
-   },
-   {
-    "date": "2026-10-22",
-    "count": 11
-   },
-   {
-    "date": "2026-10-28",
-    "count": 11
-   }
-  ],
+  "top_days": [],
   "per_hour": [
    36,
    6,
@@ -82,11 +57,11 @@
    5,
    3,
    7,
-   9,
-   19,
-   33,
-   47,
-   39
+   10,
+   22,
+   35,
+   51,
+   40
   ],
   "source_repos": [
    "yinghuajimew/Nibnya",
@@ -94,8 +69,8 @@
    "yinghuajimew/elder-launcher",
    "yinghuajiai/yinghuajiai",
    "juggler-ai/juggler",
-   "yinghuajimew/yinghuaji-ForceCloseOreUI",
-   "yinghuajimew/ForceCloseOreUI-android"
+   "yinghuajimew/ForceCloseOreUI-android",
+   "yinghuajimew/yinghuaji-ForceCloseOreUI"
   ]
  }
 }
