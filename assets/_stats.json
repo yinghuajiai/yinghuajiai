@@ -15,11 +15,11 @@
   {
    "year": 2026,
    "month": 11,
-   "total": 0,
-   "active": 0,
-   "days": 1,
+   "total": 6,
+   "active": 1,
+   "days": 2,
    "parts": [
-    0,
+    6,
     0,
     0
    ]
@@ -28,15 +28,20 @@
  "years": [
   {
    "year": 2026,
-   "total": 315,
-   "weeks": 10
+   "total": 321,
+   "weeks": 11
   }
  ],
  "hourly": {
-  "total": 222,
-  "days": 28,
+  "total": 225,
+  "days": 29,
   "timezone": "Asia/Shanghai (UTC+8)",
-  "top_days": [],
+  "top_days": [
+   {
+    "date": "2026-11-01",
+    "count": 3
+   }
+  ],
   "per_hour": [
    36,
    6,
@@ -60,8 +65,8 @@
    10,
    22,
    35,
-   51,
-   40
+   52,
+   42
   ],
   "source_repos": [
    "yinghuajimew/Nibnya",
