@@ -18,14 +18,14 @@
   <img src="assets/legend.svg" alt="图例：粉色提交、紫色开 PR、金色合并" width="900">
 </picture>
 
-> 柱子的高度是当天活动次数，颜色区分类型：提交 22 次 / 开 PR 0 次 / 合并 0 次（本月）。
+> 柱子的高度是当天活动次数，颜色区分类型：提交 25 次 / 开 PR 0 次 / 合并 0 次（本月）。
 > 没有活动的日子不省略，只画一条 2px 的浅刻度——空着的日子也是记录。
 >
 > 小时图按 **北京时间** 分桶，数据来自逐条读取 commit 时间戳。GitHub 的贡献统计覆盖所有分支与仓库，
 > 而 API 只能逐仓库逐分支扫，因此小时图的总数会少于日柱图（约八成），两者的**形状与峰值一致**。
 
 <details open>
-<summary><b>11 月</b> · 5/5 天有活动 · 合计 22</summary>
+<summary><b>11 月</b> · 6/6 天有活动 · 合计 25</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-2026-11-dark.svg">
@@ -36,7 +36,7 @@
 <summary><b>每天</b> · 按小时（Asia/Shanghai (UTC+8)）</summary>
 
 <details open>
-<summary><b>全天累计</b> · 峰值 22 时（57 次）· 共 241 次</summary>
+<summary><b>全天累计</b> · 峰值 22 时（57 次）· 共 244 次</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-all-dark.svg">
@@ -76,21 +76,21 @@
 </details>
 
 <details>
-<summary><b>11-04</b> · 1 次</summary>
+<summary><b>11-06</b> · 3 次</summary>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-2026-11-04-dark.svg">
-  <img src="assets/activity-hours-2026-11-04.svg" alt="2026-11-04 的逐小时提交分布" width="900">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-2026-11-06-dark.svg">
+  <img src="assets/activity-hours-2026-11-06.svg" alt="2026-11-06 的逐小时提交分布" width="900">
 </picture>
 
 </details>
 
 <details>
-<summary><b>11-05</b> · 1 次</summary>
+<summary><b>11-04</b> · 1 次</summary>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-2026-11-05-dark.svg">
-  <img src="assets/activity-hours-2026-11-05.svg" alt="2026-11-05 的逐小时提交分布" width="900">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-hours-2026-11-04-dark.svg">
+  <img src="assets/activity-hours-2026-11-04.svg" alt="2026-11-04 的逐小时提交分布" width="900">
 </picture>
 
 </details>
@@ -110,7 +110,7 @@
 </details>
 
 <details>
-<summary><b>2026</b> · 11 周 · 合计 337</summary>
+<summary><b>2026</b> · 11 周 · 合计 340</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-year-2026-dark.svg">
@@ -139,8 +139,8 @@
 
 ## 说明
 
-- 数据来自 GitHub 贡献统计，每天 UTC 00:20 自动重跑；本页生成于 2026-11-05。
+- 数据来自 GitHub 贡献统计，每天 UTC 00:20 自动重跑；本页生成于 2026-11-06。
 - 时间轴起点 2026-08-24（本账号建号日）。更早的提交作者是 `yinghuajimew`，不计入。
 - `yinghuajiai/Nibnya` 与 `yinghuajimew/Nibnya` 是同一份历史（OID 完全一致），只计一次。
-- 账户合计 **337** 次活动。
+- 账户合计 **340** 次活动。
 

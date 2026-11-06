@@ -27,7 +27,8 @@
 <text x="411.87" y="130.67" font-size="9" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">2</text>
 <rect x="437.02" y="137.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
 <rect x="472.44" y="137.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
-<rect x="507.85" y="137.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="507.85" y="133.25" width="20.54" height="5.75" fill="#F4799C" rx="1.5"/>
+<text x="518.12" y="128.75" font-size="9" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">3</text>
 <rect x="543.27" y="137.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
 <rect x="578.69" y="131.33" width="20.54" height="7.67" fill="#F4799C" rx="1.5"/>
 <text x="588.96" y="126.83" font-size="9" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">4</text>
