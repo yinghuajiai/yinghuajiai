@@ -878,16 +878,16 @@
    0,
    0,
    0,
+   1,
    0,
-   0,
-   0,
-   0,
-   0,
-   0,
-   0
+   1,
+   1,
+   2,
+   1,
+   1
   ]
  },
- "total": 244,
+ "total": 251,
  "source_repos": [
   "yinghuajimew/Nibnya",
   "yinghuajimew/yhjmew.no.ore.ui",
@@ -897,5 +897,5 @@
   "yinghuajimew/ForceCloseOreUI-android",
   "yinghuajimew/yinghuaji-ForceCloseOreUI"
  ],
- "scanned_commits": 244
+ "scanned_commits": 251
 }
