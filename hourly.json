@@ -885,17 +885,44 @@
    2,
    1,
    1
+  ],
+  "2026-11-07": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3,
+   8
   ]
  },
- "total": 251,
+ "total": 262,
  "source_repos": [
   "yinghuajimew/Nibnya",
   "yinghuajimew/yhjmew.no.ore.ui",
   "yinghuajimew/elder-launcher",
+  "yinghuajimew/ForceCloseOreUI-windows",
   "yinghuajiai/yinghuajiai",
-  "juggler-ai/juggler",
+  "yinghuajimew/yinghuaji-ForceCloseOreUI",
   "yinghuajimew/ForceCloseOreUI-android",
-  "yinghuajimew/yinghuaji-ForceCloseOreUI"
+  "juggler-ai/juggler"
  ],
- "scanned_commits": 251
+ "scanned_commits": 262
 }
