@@ -1,6 +1,6 @@
 {
  "login": "yinghuajiai",
- "generated_at": "2026-11-08",
+ "generated_at": "2026-11-09",
  "born": "2026-08-24",
  "day_repo": {
   "2026-08-24": {
@@ -125,6 +125,14 @@
    "yinghuaji-ForceCloseOreUI": 3,
    "ForceCloseOreUI-android": 2,
    "yhjmew.no.ore.ui": 1
+  },
+  "2026-11-08": {
+   "Nibnya": 3,
+   "yinghuaji-ForceCloseOreUI": 1,
+   "ForceCloseOreUI-android": 1
+  },
+  "2026-11-09": {
+   "Nibnya": 1
   }
  },
  "prs": [
@@ -278,18 +286,6 @@
  ],
  "repos": [
   {
-   "name": "yinghuajiai",
-   "full_name": "yinghuajiai/yinghuajiai",
-   "description": "樱花祭 AI · 自动化活动面板（每日更新）",
-   "language": "Python",
-   "stars": 0,
-   "fork": false,
-   "topics": [],
-   "license": null,
-   "created": "2026-10-25",
-   "pushed": "2026-11-07"
-  },
-  {
    "name": "Nibnya",
    "full_name": "yinghuajiai/Nibnya",
    "description": "An Android NBT editor for Minecraft Bedrock, powered by Shizuku for /data access. | 一款基于 Shizuku 的安卓 Minecraft 基岩版 NBT 数据编辑器，支持 Android 6~13",
@@ -299,7 +295,19 @@
    "topics": [],
    "license": "AGPL-3.0",
    "created": "2026-09-12",
-   "pushed": "2026-11-06"
+   "pushed": "2026-11-08"
+  },
+  {
+   "name": "yinghuajiai",
+   "full_name": "yinghuajiai/yinghuajiai",
+   "description": "樱花祭 AI · 自动化活动面板（每日更新）",
+   "language": "Python",
+   "stars": 0,
+   "fork": false,
+   "topics": [],
+   "license": null,
+   "created": "2026-10-25",
+   "pushed": "2026-11-08"
   },
   {
    "name": "juggler",
