@@ -15,11 +15,11 @@
   {
    "year": 2026,
    "month": 11,
-   "total": 69,
-   "active": 12,
-   "days": 12,
+   "total": 76,
+   "active": 13,
+   "days": 13,
    "parts": [
-    69,
+    76,
     0,
     0
    ]
@@ -28,13 +28,13 @@
  "years": [
   {
    "year": 2026,
-   "total": 384,
+   "total": 391,
    "weeks": 12
   }
  ],
  "hourly": {
-  "total": 288,
-  "days": 40,
+  "total": 241,
+  "days": 41,
   "timezone": "Asia/Shanghai (UTC+8)",
   "top_days": [
    {
@@ -63,7 +63,7 @@
    }
   ],
   "per_hour": [
-   42,
+   32,
    6,
    0,
    0,
@@ -73,20 +73,20 @@
    0,
    0,
    1,
-   2,
-   0,
-   0,
+   3,
+   1,
+   1,
    3,
    0,
+   2,
+   3,
    4,
    5,
-   4,
-   7,
-   13,
-   28,
-   44,
-   68,
-   61
+   12,
+   26,
+   34,
+   56,
+   52
   ],
   "source_repos": [
    "yinghuajimew/Nibnya",
@@ -96,7 +96,9 @@
    "yinghuajimew/ForceCloseOreUI-android",
    "yinghuajimew/ForceCloseOreUI-windows",
    "yinghuajiai/yinghuajiai",
-   "juggler-ai/juggler"
+   "juggler-ai/juggler",
+   "yinghuajimew/CloseOreUI-iOS-IPA-Patcher",
+   "yinghuajimew/leveldb-java-src"
   ]
  }
 }
