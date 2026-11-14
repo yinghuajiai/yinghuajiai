@@ -15,11 +15,11 @@
   {
    "year": 2026,
    "month": 11,
-   "total": 76,
+   "total": 96,
    "active": 13,
-   "days": 13,
+   "days": 14,
    "parts": [
-    76,
+    96,
     0,
     0
    ]
@@ -28,15 +28,19 @@
  "years": [
   {
    "year": 2026,
-   "total": 391,
+   "total": 411,
    "weeks": 12
   }
  ],
  "hourly": {
-  "total": 241,
+  "total": 261,
   "days": 41,
   "timezone": "Asia/Shanghai (UTC+8)",
   "top_days": [
+   {
+    "date": "2026-11-13",
+    "count": 23
+   },
    {
     "date": "2026-11-07",
     "count": 11
@@ -56,10 +60,6 @@
    {
     "date": "2026-11-09",
     "count": 8
-   },
-   {
-    "date": "2026-11-02",
-    "count": 6
    }
   ],
   "per_hour": [
@@ -79,13 +79,13 @@
    3,
    0,
    2,
-   3,
-   4,
+   8,
+   10,
    5,
-   12,
+   19,
    26,
-   34,
-   56,
+   35,
+   57,
    52
   ],
   "source_repos": [
@@ -94,6 +94,7 @@
    "yinghuajimew/elder-launcher",
    "yinghuajimew/yinghuaji-ForceCloseOreUI",
    "yinghuajimew/ForceCloseOreUI-android",
+   "yinghuajimew/closeoreUI-signature",
    "yinghuajimew/ForceCloseOreUI-windows",
    "yinghuajiai/yinghuajiai",
    "juggler-ai/juggler",

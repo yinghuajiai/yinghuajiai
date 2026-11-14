@@ -1059,28 +1059,29 @@
    0,
    0,
    0,
+   5,
+   6,
    0,
+   7,
    0,
-   0,
-   0,
-   0,
-   0,
-   0,
+   1,
+   1,
    0
   ]
  },
- "total": 241,
+ "total": 261,
  "source_repos": [
   "yinghuajimew/Nibnya",
   "yinghuajimew/yhjmew.no.ore.ui",
   "yinghuajimew/elder-launcher",
   "yinghuajimew/yinghuaji-ForceCloseOreUI",
   "yinghuajimew/ForceCloseOreUI-android",
+  "yinghuajimew/closeoreUI-signature",
   "yinghuajimew/ForceCloseOreUI-windows",
   "yinghuajiai/yinghuajiai",
   "juggler-ai/juggler",
   "yinghuajimew/CloseOreUI-iOS-IPA-Patcher",
   "yinghuajimew/leveldb-java-src"
  ],
- "scanned_commits": 241
+ "scanned_commits": 261
 }

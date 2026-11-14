@@ -1,6 +1,6 @@
 {
  "login": "yinghuajiai",
- "generated_at": "2026-11-13",
+ "generated_at": "2026-11-14",
  "born": "2026-08-24",
  "day_repo": {
   "2026-08-24": {
@@ -121,9 +121,9 @@
    "Nibnya": 10
   },
   "2026-11-07": {
-   "ForceCloseOreUI-windows": 5,
    "yinghuaji-ForceCloseOreUI": 3,
    "ForceCloseOreUI-android": 2,
+   "ForceCloseOreUI-windows": 5,
    "yhjmew.no.ore.ui": 1
   },
   "2026-11-08": {
@@ -145,7 +145,10 @@
    "leveldb-java-src": 1
   },
   "2026-11-13": {
-   "Nibnya": 2,
+   "Nibnya": 7,
+   "yinghuaji-ForceCloseOreUI": 5,
+   "ForceCloseOreUI-android": 5,
+   "closeoreUI-signature": 5,
    "CloseOreUI-iOS-IPA-Patcher": 1
   }
  },
@@ -321,7 +324,7 @@
    "topics": [],
    "license": null,
    "created": "2026-10-25",
-   "pushed": "2026-11-12"
+   "pushed": "2026-11-13"
   },
   {
    "name": "juggler",
