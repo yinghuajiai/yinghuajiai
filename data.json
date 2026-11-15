@@ -1,6 +1,6 @@
 {
  "login": "yinghuajiai",
- "generated_at": "2026-11-14",
+ "generated_at": "2026-11-15",
  "born": "2026-08-24",
  "day_repo": {
   "2026-08-24": {
@@ -150,6 +150,9 @@
    "ForceCloseOreUI-android": 5,
    "closeoreUI-signature": 5,
    "CloseOreUI-iOS-IPA-Patcher": 1
+  },
+  "2026-11-14": {
+   "Nibnya": 2
   }
  },
  "prs": [
@@ -312,7 +315,7 @@
    "topics": [],
    "license": "AGPL-3.0",
    "created": "2026-09-12",
-   "pushed": "2026-11-13"
+   "pushed": "2026-11-14"
   },
   {
    "name": "yinghuajiai",
@@ -324,7 +327,7 @@
    "topics": [],
    "license": null,
    "created": "2026-10-25",
-   "pushed": "2026-11-13"
+   "pushed": "2026-11-14"
   },
   {
    "name": "juggler",
