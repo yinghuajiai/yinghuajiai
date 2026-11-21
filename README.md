@@ -25,7 +25,7 @@
 > 而 API 只能逐仓库逐分支扫，因此小时图的总数会少于日柱图（约八成），两者的**形状与峰值一致**。
 
 <details open>
-<summary><b>11 月</b> · 17/20 天有活动 · 合计 106</summary>
+<summary><b>11 月</b> · 17/21 天有活动 · 合计 106</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-2026-11-dark.svg">
@@ -139,7 +139,7 @@
 
 ## 说明
 
-- 数据来自 GitHub 贡献统计，每天 UTC 00:20 自动重跑；本页生成于 2026-11-20。
+- 数据来自 GitHub 贡献统计，每天 UTC 00:20 自动重跑；本页生成于 2026-11-21。
 - 时间轴起点 2026-08-24（本账号建号日）。更早的提交作者是 `yinghuajimew`，不计入。
 - `yinghuajiai/Nibnya` 与 `yinghuajimew/Nibnya` 是同一份历史（OID 完全一致），只计一次。
 - 账户合计 **421** 次活动。
