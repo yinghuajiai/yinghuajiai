@@ -17,7 +17,7 @@
    "month": 11,
    "total": 106,
    "active": 17,
-   "days": 22,
+   "days": 23,
    "parts": [
     106,
     0,
@@ -29,7 +29,7 @@
   {
    "year": 2026,
    "total": 421,
-   "weeks": 13
+   "weeks": 14
   }
  ],
  "hourly": {
