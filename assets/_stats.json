@@ -15,11 +15,11 @@
   {
    "year": 2026,
    "month": 11,
-   "total": 106,
-   "active": 17,
-   "days": 23,
+   "total": 108,
+   "active": 18,
+   "days": 24,
    "parts": [
-    106,
+    108,
     0,
     0
    ]
@@ -28,13 +28,13 @@
  "years": [
   {
    "year": 2026,
-   "total": 421,
+   "total": 423,
    "weeks": 14
   }
  ],
  "hourly": {
-  "total": 271,
-  "days": 45,
+  "total": 273,
+  "days": 46,
   "timezone": "Asia/Shanghai (UTC+8)",
   "top_days": [
    {
@@ -66,7 +66,7 @@
    32,
    6,
    0,
-   0,
+   2,
    0,
    0,
    0,

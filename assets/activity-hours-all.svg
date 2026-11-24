@@ -15,7 +15,8 @@
 <rect x="82.85" y="130.38" width="20.54" height="8.62" fill="#F4799C" rx="1.5"/>
 <text x="93.12" y="125.88" font-size="9" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">6</text>
 <rect x="118.27" y="137.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
-<rect x="153.69" y="137.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
+<rect x="153.69" y="136.12" width="20.54" height="2.88" fill="#F4799C" rx="1.5"/>
+<text x="163.96" y="131.62" font-size="9" fill="#B49CA8" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC','Segoe UI',sans-serif">2</text>
 <rect x="189.10" y="137.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
 <rect x="224.52" y="137.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
 <rect x="259.94" y="137.00" width="20.54" height="2" fill="#F4E2EA" rx="1"/>
