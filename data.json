@@ -1,6 +1,6 @@
 {
  "login": "yinghuajiai",
- "generated_at": "2026-11-25",
+ "generated_at": "2026-11-26",
  "born": "2026-08-24",
  "day_repo": {
   "2026-08-24": {
@@ -121,15 +121,15 @@
    "Nibnya": 10
   },
   "2026-11-07": {
-   "yinghuaji-ForceCloseOreUI": 3,
    "ForceCloseOreUI-android": 2,
+   "yinghuaji-ForceCloseOreUI": 3,
    "ForceCloseOreUI-windows": 5,
    "yhjmew.no.ore.ui": 1
   },
   "2026-11-08": {
    "Nibnya": 3,
-   "yinghuaji-ForceCloseOreUI": 1,
-   "ForceCloseOreUI-android": 1
+   "ForceCloseOreUI-android": 1,
+   "yinghuaji-ForceCloseOreUI": 1
   },
   "2026-11-09": {
    "Nibnya": 8
@@ -146,8 +146,8 @@
   },
   "2026-11-13": {
    "Nibnya": 7,
-   "yinghuaji-ForceCloseOreUI": 5,
    "ForceCloseOreUI-android": 5,
+   "yinghuaji-ForceCloseOreUI": 5,
    "closeoreUI-signature": 5,
    "CloseOreUI-iOS-IPA-Patcher": 1
   },
@@ -165,6 +165,9 @@
   },
   "2026-11-24": {
    "Nibnya": 4
+  },
+  "2026-11-25": {
+   "ForceCloseOreUI-android": 1
   }
  },
  "prs": [
@@ -318,18 +321,6 @@
  ],
  "repos": [
   {
-   "name": "Nibnya",
-   "full_name": "yinghuajiai/Nibnya",
-   "description": "An Android NBT editor for Minecraft Bedrock, powered by Shizuku for /data access. | 一款基于 Shizuku 的安卓 Minecraft 基岩版 NBT 数据编辑器，支持 Android 6~13",
-   "language": "C",
-   "stars": 0,
-   "fork": true,
-   "topics": [],
-   "license": "AGPL-3.0",
-   "created": "2026-09-12",
-   "pushed": "2026-11-24"
-  },
-  {
    "name": "yinghuajiai",
    "full_name": "yinghuajiai/yinghuajiai",
    "description": "樱花祭 AI · 自动化活动面板（每日更新）",
@@ -339,6 +330,18 @@
    "topics": [],
    "license": null,
    "created": "2026-10-25",
+   "pushed": "2026-11-25"
+  },
+  {
+   "name": "Nibnya",
+   "full_name": "yinghuajiai/Nibnya",
+   "description": "An Android NBT editor for Minecraft Bedrock, powered by Shizuku for /data access. | 一款基于 Shizuku 的安卓 Minecraft 基岩版 NBT 数据编辑器，支持 Android 6~13",
+   "language": "C",
+   "stars": 0,
+   "fork": true,
+   "topics": [],
+   "license": "AGPL-3.0",
+   "created": "2026-09-12",
    "pushed": "2026-11-24"
   },
   {

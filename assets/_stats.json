@@ -15,11 +15,11 @@
   {
    "year": 2026,
    "month": 11,
-   "total": 110,
-   "active": 18,
-   "days": 25,
+   "total": 111,
+   "active": 19,
+   "days": 26,
    "parts": [
-    110,
+    111,
     0,
     0
    ]
@@ -28,13 +28,13 @@
  "years": [
   {
    "year": 2026,
-   "total": 425,
+   "total": 426,
    "weeks": 14
   }
  ],
  "hourly": {
-  "total": 275,
-  "days": 46,
+  "total": 276,
+  "days": 47,
   "timezone": "Asia/Shanghai (UTC+8)",
   "top_days": [
    {
@@ -84,7 +84,7 @@
    5,
    21,
    26,
-   39,
+   40,
    61,
    54
   ],
@@ -92,8 +92,8 @@
    "yinghuajimew/Nibnya",
    "yinghuajimew/yhjmew.no.ore.ui",
    "yinghuajimew/elder-launcher",
-   "yinghuajimew/yinghuaji-ForceCloseOreUI",
    "yinghuajimew/ForceCloseOreUI-android",
+   "yinghuajimew/yinghuaji-ForceCloseOreUI",
    "yinghuajimew/closeoreUI-signature",
    "yinghuajimew/ForceCloseOreUI-windows",
    "yinghuajiai/yinghuajiai",

@@ -1197,15 +1197,41 @@
    0,
    0,
    2
+  ],
+  "2026-11-25": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0
   ]
  },
- "total": 275,
+ "total": 276,
  "source_repos": [
   "yinghuajimew/Nibnya",
   "yinghuajimew/yhjmew.no.ore.ui",
   "yinghuajimew/elder-launcher",
-  "yinghuajimew/yinghuaji-ForceCloseOreUI",
   "yinghuajimew/ForceCloseOreUI-android",
+  "yinghuajimew/yinghuaji-ForceCloseOreUI",
   "yinghuajimew/closeoreUI-signature",
   "yinghuajimew/ForceCloseOreUI-windows",
   "yinghuajiai/yinghuajiai",
@@ -1213,5 +1239,5 @@
   "yinghuajimew/CloseOreUI-iOS-IPA-Patcher",
   "yinghuajimew/leveldb-java-src"
  ],
- "scanned_commits": 275
+ "scanned_commits": 276
 }
